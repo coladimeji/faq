@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EEE;
+  background-color: black transparent;
 }
 
 code {
@@ -44,9 +44,9 @@ header h1 {
 .faqs .faq {
 	margin: 15px;
 	padding: 15px;
-	background-color: #FFF;
+	background-color: rgb(240, 9, 47);
 	border-radius: 8px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px white(0, 0, 0, 0.2);
 }
 
 .faqs .faq .faq-question {
@@ -93,3 +93,20 @@ header h1 {
 	max-height: 1000px;
 	opacity: 1;
 }
+.body{
+	padding: 0;
+	margin:0;
+	Background-color: #121317;
+	}
+	button{
+		background-color: #18f98f;
+		border:none;
+		position: absolute;
+		transform: translate (-50%, -50%);
+		top: 50%;
+		left: 50%;
+		padding: 20px 50px;
+		font-size: 30px;
+		font-weight: bold;
+
+	}
